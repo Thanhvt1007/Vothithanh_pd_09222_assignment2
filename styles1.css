@@ -1,0 +1,273 @@
+.container>footer {
+    border-top: 5px double rgb(26, 112, 162);
+    background-color: rgb(119, 179, 206);
+    text-align: center;
+    clear: both;
+    line-height: 50px;
+}
+
+footer {
+    border-top: 5px double rgb(26, 112, 162);
+    width: 100%;
+    height: 300px;
+    background-color: rgb(119, 179, 206);
+    clear: both;
+    line-height: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-variant: small-caps;
+    bottom: 0px;
+    left: 0px;
+    border-bottom: 1 px dotted gray;
+    color: black;
+
+}
+
+header {
+    background-image: url(images/banner.jpg);
+    background-size: 100% 100%;
+    padding-bottom: 15%;
+}
+
+article {
+    width: 70%;
+    min-height: 1000px;
+    background-color: white;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    min-height: 1000px;
+    background-color: white;
+    float: right;
+
+
+
+}
+
+aside a {
+    color: red;
+}
+
+
+
+.vmenu {
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+
+}
+
+.vmenu a {
+
+    background: url(../Assignment_2/images/h1.gif) no-repeat 10px center;
+    display: block;
+    border-bottom: 1 px dotted rgb(26, 112, 162);
+    color: rgb(26, 112, 162);
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+
+.vmenu a:hover {
+    background: url(../Assignment_2/images/h2.gif) no-repeat 10px center;
+
+    background-color: rgb(26, 112, 162);
+    border-bottom: 1 px dotted white;
+    color: white;
+    font-weight: bold;
+
+}
+
+.menu>ul>li {
+    display: inline-block
+}
+
+.menu>ul>li>a {
+    display: block
+}
+
+.menu>ul {
+    padding: 0px;
+
+    margin: 0px;
+
+    list-style: none;
+    border-radius: 5px;
+
+    background-color: rgb(38, 34, 152);
+    text-align: center;
+
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+
+    line-height: 30px;
+
+}
+
+.menu>ul>li>a:hover {
+    color: rgb(26, 112, 162);
+}
+
+
+.menu>ul>li {
+
+    position: relative;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+}
+
+.menu ul ul a {
+    display: block;
+}
+
+.menu>ul>li:hover>ul {
+
+    display: block;
+}
+
+.menu ul ul {
+    padding: 0px 30px;
+    margin: 0px 30px;
+    list-style: none;
+    border-radius: 3px30px;
+    width: 150px;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(46, 129, 193);
+}
+
+.menu ul ul a {
+    line-height: 30px;
+    color: rgb(46, 129, 193);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px 30px;
+}
+
+.menu ul ul a:hover {
+    background-color: rgb(33, 137, 192);
+    color: white;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    border-bottom: 2px solid rgb(26, 112, 162);
+    text-shadow: -1px -8px 10px rgb(26, 112, 162);
+
+}
+
+.company {
+    width: 0px;
+
+    position: relative;
+    bottom: 250px;
+    left: 20px;
+}
+
+.abc {
+    font-size: 20px;
+    font-variant: small-caps;
+
+}
+
+
+
+.iconhome {
+    float: right;
+    line-height: 30px;
+    padding: 0px;
+
+    margin: 0px;
+}
+
+button {
+    background-color: rgb(18, 125, 186);
+}
+
+.table {
+    width: 70%;
+    height: 50px;
+}
+
+.chu {
+    color: red;
+}
+
+H2 {
+    color: red;
+    text-align: center;
+}
+
+p>img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid rgb(85, 153, 180);
+    border-radius: 10px;
+    background-color: rgb(58, 132, 159);
+    margin: 5px;
+    box-shadow: 5px 5px rgb(68, 200, 138);
+
+}
+
+p {
+    text-align: center;
+
+}
+
+table {
+    width: 800px;
+
+}
+
+.thuvien {
+    text-align: justify;
+    width: 800px;
+    height: 400px;
+}
+
+.form-control {
+    width: 98%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.htt {
+    width: 15%;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.top-right {
+    box-shadow: 1px 10px 25px white;
+    line-height: 40px;
+    text-align: center;
+    height: 40px;
+    width: 400px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(38, 34, 152);
+    border-bottom-left-radius: 30px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    /* text-dec tắt gạch chân */
+}

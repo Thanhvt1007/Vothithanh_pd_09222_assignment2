@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPT Polytechnic</title>
+    <link rel="stylesheet" href="dangnhap.css">
+</head>
+
+<body>
+
+    <div class="abc">
+        <fieldset style="margin: 10px 0px">
+            <center> <b>ĐĂNG KÝ</b> </center>
+            <form>
+                <div class="form-group">
+                    <label class="chu">Họ và tên:</label> <br>
+                    <input type="text" class="form-control" tabindex="1">
+                </div>
+                <div class="form-group">
+                    <fieldset style="margin: 10px 0px">
+                        <legend>Giới tính:</legend> <br>
+                        <input name="a" type="radio">Nam
+                        <input name="a" type="radio">Nữ
+                    </fieldset>
+                </div>
+                <div class="form-group">
+                    <label class="chu">ngày sinh:</label> <br>
+                    <input type="date" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label class="chu">Nghề nghiệp:</label> <br>
+                    <input list="a" class="form-control">
+                    <datalist id="a">
+                        <option value="Công Nhân"> </option>
+                        <option value="IT"></option>
+                        <option value="Nông Dân"></option>
+                        <option value="Bác Sĩ"></option>
+                        <option value="Kĩ Sư"></option>
+                    </datalist>
+                </div>
+                <div class="form-group">
+                    <fieldset style="margin: 10px 0px">
+                        <legend>Sở thích:</legend> <br>
+                        <input type="checkbox" class="chu"> Thể thao
+                        <input type="checkbox" class="chu">Du lịch
+                        <input type="checkbox" class="chu">Âm nhạc
+                        <input type="checkbox" class="chu">Ẩm thực
+                    </fieldset>
+                </div>
+                <div class="form-group">
+                    <label>Ghi chú</label><br>
+                    <textarea rows="5" cols="30" tabidex="2"></textarea class="form-control">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="form-button" tabindex="3"><a href="ĐN.html"> Đăng nhập</a></button>
+            <button type="reset" class="form-button" tabindex="4"><a href="ĐK.html"> Nhập lại</a></button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

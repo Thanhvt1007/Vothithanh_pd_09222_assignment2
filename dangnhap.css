@@ -1,0 +1,50 @@
+.abc{
+    font-size: 30px;
+    font-variant: small-caps;
+    
+}
+.form-group{
+font-variant: small-caps;
+font-size: 20px;
+margin:10px 0px 0px;
+}
+.form-control{
+ width:100%;
+ padding:5px;
+ outline:none;
+ border:1px solid gray;
+ border-radius:3px;
+}
+ .form-group label{
+ font-weight:bold;
+ font-variant:small-caps;
+ }
+ .form-control:focus{
+ background-color:yellow;
+ box-shadow:0 0 3px red ;
+ border: 1px solid yellow;
+ }
+ .form-button{
+ padding:8px 30px;
+
+ outline:none;
+ border:none;
+ border-radius : 20px;
+
+ font-weight:bold; 
+ background-color:white;
+ color:orangered;
+ box-shadow:inset 0px 0px 20px blue;
+ }
+ .form-button:hover{
+ color:blue ;
+ box-shadow:inset 0 0 20px orangered ;
+ }
+.form-button:disabled{
+ box-shadow:inset 0 0 20px gray;
+}
+textarea:focus{
+    background-color: yellow;
+    box-shadow: 0 0 3px red;
+    border: 1px solid yellow;
+}
